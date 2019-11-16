@@ -63,21 +63,4 @@ func main()  {
 	}
 	go Tonji(newMap)
 	fmt.Println(Tonji(newMap))
-	/*var allcount []int
-	var maxcount int
-	for _, value := range newMap {
-		allcount = append(allcount, value)
-	}
-	maxcount = allcount[0]
-	for i:=0; i<len(allcount);i++ {
-		if maxcount < allcount[i] {
-			maxcount =allcount[i]
-		}
-	}
-	var maxvalue []string
-	for key, value := range newMap {
-		if value == maxcount {
-			maxvalue = append(maxvalue, key)
-		}
-	}*/
 }
